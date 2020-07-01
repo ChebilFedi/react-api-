@@ -1,0 +1,58 @@
+.App {
+  text-align: center;
+}
+
+h2,h3{
+  font-family:'Booter - Zero Zero ';
+  text-align: center;
+  color: white;
+}
+.card-container{
+ display: inline-block;
+
+ 
+}
+.users{
+  display: flex;
+  flex-direction: column;
+  width:300px;
+  height: 350px;
+  background:blue;
+  border-radius: 6px;
+  margin: 10px;
+  top:50%;
+  left: 50%;
+  
+  box-shadow: 0px 1px 10px 1px #000;
+}
+.card-container1{
+ 
+  width:300px;
+  height: 350px;
+  background:black;
+  background-color: black;
+  border-radius: 6px;
+  position: initial;
+  top:50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  box-shadow: 0px 1px 10px 1px #000;
+}
+.upper-container{
+  height: 80px;
+  background:blue;
+
+}
+.lower-container{
+height:270px;
+background:white;
+
+}
+.lower-container h3{
+  color:black;
+}
+
+
+.title{
+  text-align: center;
+}
